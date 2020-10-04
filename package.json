@@ -1,0 +1,21 @@
+{
+  "name": "testcafe-demo",
+  "version": "1.0.0",
+  "description": "mencoba testcafe bersama atlas",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome": "node_modules/.bin/testcafe chrome ./tests --reporter html:report.html",
+    "test-firefox": "node_modules/.bin/testcafe firefox ./tests"
+  },
+  "keywords": [
+    "atlas",
+    "testcafe",
+    "automation"
+  ],
+  "author": "Fatur",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.9.4",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
