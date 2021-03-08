@@ -15,7 +15,7 @@
   "author": "Fatur",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^1.9.4",
+    "testcafe": "^13.1.1",
     "testcafe-reporter-html": "^1.4.6"
   }
 }
